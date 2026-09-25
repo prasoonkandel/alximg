@@ -1,0 +1,12 @@
+{
+  "themes": [
+    {
+      "id": "0",
+      "name": "Studio Ghibli Art",
+      "description": "Soft hand painted japanese art, watercolor like backgrounds, rounded character designs, lush greenery, expressive skies, warm neutral lighting and a dreamy storybook atmosphere. This art style is used by Studio Ghibli and other anime studios. This AI-image style became really during mid-2025.",
+      "prompt": {
+        "requirements": "* **Art Medium & Texture:** Soft, hand-painted Japanese animation aesthetic featuring watercolor-like backgrounds and painterly textures.\n* **Atmosphere:** Dreamy, nostalgic storybook feel.\n* **Environment:** Lush greenery, organic natural elements, and expansive, expressive skies.\n* **Character Design (if applicable):** Rounded, gentle character shapes with expressive, classic anime features.\n* **Lighting & Color:** Warm, neutral lighting with soft contrasts and a rich, natural color palette."
+      }
+    }
+  ]
+}
