@@ -1,11 +1,27 @@
 {
   "themes": [
     {
-      "id": "0",
+      "id": 0,
       "name": "Studio Ghibli Art",
       "description": "Soft hand painted japanese art, watercolor like backgrounds, rounded character designs, lush greenery, expressive skies, warm neutral lighting and a dreamy storybook atmosphere. This art style is used by Studio Ghibli and other anime studios. This AI-image style became really during mid-2025.",
       "prompt": {
         "requirements": "* **Art Medium & Texture:** Soft, hand-painted Japanese animation aesthetic featuring watercolor-like backgrounds and painterly textures.\n* **Atmosphere:** Dreamy, nostalgic storybook feel.\n* **Environment:** Lush greenery, organic natural elements, and expansive, expressive skies.\n* **Character Design (if applicable):** Rounded, gentle character shapes with expressive, classic anime features.\n* **Lighting & Color:** Warm, neutral lighting with soft contrasts and a rich, natural color palette."
+      }
+    },
+    {
+      "id": 1,
+      "name": "1980s Film Photography",
+      "description": "Grainy analog 35mm film photography, direct on-camera flash with deep shadowy backgrounds, faded warm color palettes, classic amber digital date stamps in the lower right corner, candid poses, and a nostalgic snapshot atmosphere. This look is captured by vintage point-and-shoot cameras and old family photo albums. This AI-image style surged in popularity for its authentic retro aesthetic.",
+      "prompt": {
+        "requirements": "* **Art Medium & Texture:** Authentic 35mm analog film photograph with visible vintage film grain, slight soft focus, and retro point-and-shoot camera artifacts.\n* **Atmosphere:** Candid, nostalgic, everyday family photo album or vintage street snapshot vibe.\n* **Environment:** Realistic retro environments, casual indoor settings, or urban streets with time-period details.\n* **Composition & Details:** Direct on-camera flash creating harsh silhouettes, deep shadows, and an iconic amber or orange digital date stamp in the lower right corner.\n* **Lighting & Color:** Muted, faded color palettes, warm skin tones, slight color cast, and high-contrast flash lighting against darker backgrounds."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Baroque Oil Painting",
+      "description": "Classic 17th-century European oil painting with dramatic lighting, rich textures, deep shadows, elegant detail, and grand old-master atmosphere.",
+      "prompt": {
+        "requirements": "* **Art Medium & Texture:** Traditional oil on aged canvas, layered pigments, visible brush strokes, subtle canvas grain, refined glazing, and light impasto highlights.\n* **Atmosphere:** Dramatic, majestic, solemn, luxurious, theatrical, and emotionally intense.\n* **Environment:** Candlelit European halls, churches, palaces, dark studios, classical architecture, velvet curtains, or historical interiors.\n* **Composition & Details:** Dynamic Baroque poses, realistic anatomy, expressive faces, flowing garments, ornate accessories, strong diagonals, and museum-style framing.\n* **Lighting & Color:** Strong chiaroscuro, warm directional light, deep blacks, burnt umber, ochre, crimson, muted gold, ivory tones, and rich shadow contrast."
       }
     }
   ]
