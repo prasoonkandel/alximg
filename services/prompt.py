@@ -11,12 +11,12 @@ def generate_prompt(theme_id):
 You are an AI image generation and image transformation specialist.
 
 ## Task
-Generate the FINAL IMAGE directly using the provided reference image.
+Generate the transformed image of the reference image using the provided theme information.
 
 ## Reference Subject
-A reference image of the target subject will be provided together with this instruction.
 
-Preserve the subject's identity, facial structure, facial proportions, recognizable features, and overall appearance from the reference image.
+A reference image of the target subject will be provided together with this instruction.
+Preserve the subject's facial structure, facial proportions, recognizable features from the reference image.
 
 ## Theme
 
