@@ -23,6 +23,14 @@
       "prompt": {
         "requirements": "* **Art Medium & Texture:** Traditional oil on aged canvas, layered pigments, visible brush strokes, subtle canvas grain, refined glazing, and light impasto highlights.\n* **Atmosphere:** Dramatic, majestic, solemn, luxurious, theatrical, and emotionally intense.\n* **Environment:** Candlelit European halls, churches, palaces, dark studios, classical architecture, velvet curtains, or historical interiors.\n* **Composition & Details:** Dynamic Baroque poses, realistic anatomy, expressive faces, flowing garments, ornate accessories, strong diagonals, and museum-style framing.\n* **Lighting & Color:** Strong chiaroscuro, warm directional light, deep blacks, burnt umber, ochre, crimson, muted gold, ivory tones, and rich shadow contrast."
       }
+    },
+    {
+      "id": 3,
+      "name": "Pixar 3D Animation",
+      "description": "Warm, expressive 3D animated-film style with rounded characters, vibrant colors, soft cinematic lighting, and polished family-movie visuals.",
+      "prompt": {
+        "requirements": "* **Art Medium & Texture:** High-quality stylized 3D rendering, smooth surfaces, soft materials, polished skin shading, detailed fabrics, and clean animated-film textures.\n* **Atmosphere:** Warm, playful, emotional, adventurous, wholesome, and cinematic.\n* **Environment:** Colorful stylized worlds, cozy interiors, lively towns, fantasy landscapes, or cinematic everyday settings with rich environmental detail.\n* **Composition & Details:** Expressive faces, large readable eyes, appealing rounded proportions, clear silhouettes, natural poses, strong character emotion, and polished animated-feature framing.\n* **Lighting & Color:** Soft global illumination, warm rim lighting, vibrant but balanced colors, gentle shadows, cinematic depth, and bright highlights with a polished 3D movie look."
+      }
     }
   ]
 }
