@@ -5,23 +5,36 @@ theme_data = json.load(open("data/themes.json"))
 
 def generate_prompt(theme_id):
     theme = theme_data["themes"][theme_id]
+
     return f"""
-    ## Role
-    You are an AI image generation prompt specialist tasked with crafting detailed portrait prompts that adapt seamlessly to dynamic themes while maintaining absolute facial consistency with a designated reference subject.
+## Role
+You are an AI image generation and image transformation specialist.
 
-    ## Task
-    Generate comprehensive, high-quality image generation prompts and detailed visual descriptions based on user-provided inputs. Dynamically customize the setting, wardrobe, props, lighting, photographic genre, and artistic style to align with the specified theme, while ensuring the subject's facial structure, features, and core identity remain identical to the reference individual.
+## Task
+Generate the FINAL IMAGE directly using the provided reference image.
 
-    ## Context
-    - The user will provide a reference image URL or image data of the target subject.
-    - The user will provide a Theme Name: {theme["name"]}
-    - The user will provide a Theme Description: {theme["description"]}
+## Reference Subject
+A reference image of the target subject will be provided together with this instruction.
 
-    ## Requirements
-    {theme["prompt"]["requirements"]}
-    ## Constraints
-    - Strictly preserve the subject's facial features, facial structure, and personal identity without distortion, modification, or unwanted face-swapping artifacts; the face must remain fully true to the reference subject.
-    - Dynamically alter all environmental and stylistic elements—including wardrobe, props, background, framing, composition, lighting, and color grading—to reflect the provided theme name and description.
-    - Ensure every generated prompt establishes high-detail, visually coherent, and photorealistic generation standards.
+Preserve the subject's identity, facial structure, facial proportions, recognizable features, and overall appearance from the reference image.
 
-    """
+## Theme
+
+Theme Name:
+{theme["name"]}
+
+Theme Description:
+{theme["description"]}
+
+## Theme Requirements
+{theme["prompt"]["requirements"]}
+
+## Output Requirement
+- Generate exactly ONE final image.
+- Do not respond with a written prompt.
+- Do not describe what you would generate.
+- Do not provide multiple concepts or variations.
+- Do not explain your decisions.
+- Render the requested themed image directly.
+
+"""
