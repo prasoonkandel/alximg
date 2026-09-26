@@ -38,11 +38,8 @@ def generate_image(prompt, input_image_url):
     result = response.json()
     message = result["choices"][0]["message"]
 
-    if "images" not in message:
-        text_content = message.get("content", "No content returned.")
-        raise ValueError(
-            f"Model failed to generate an image. API returned text instead:\n{text_content}"
-        )
+    if "images" not in message or not message["images"]:
+        raise ValueError(f"No image returned by the model.")
 
     image_data = message["images"][0]["image_url"]["url"]
 
