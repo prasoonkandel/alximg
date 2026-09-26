@@ -1,8 +1,6 @@
 import base64
 import io
 import os
-from operator import ge
-from tokenize import generate_tokens
 
 import dotenv
 import requests
