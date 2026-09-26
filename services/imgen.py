@@ -31,7 +31,7 @@ def generate_image(prompt, input_image_url):
             }
         ],
         "modalities": ["image", "text"],
-        "image_config": {"aspect_ratio": "4:3"},
+        "image_config": {"aspect_ratio": "3:4"},
     }
     response = requests.post(API_URL, headers=headers, json=data)
     response.raise_for_status()
