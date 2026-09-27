@@ -6,6 +6,7 @@ from pydantic_core.core_schema import ErrorType
 from starlette.types import Message
 
 from services.imgen import generate_image
+from services.json import get_all_themes
 from services.prompt import generate_prompt
 
 app = FastAPI()
@@ -35,5 +36,14 @@ def send_image(image_req: Image):
         prompt = generate_prompt(image_req.theme_id)
         output_image_url = generate_image(prompt, image_req.input_image_url)
         return {"message": "Image Generated Succesfully", "image_url": output_image_url}
+    except Exception as e:
+        return {"error": e}
+
+
+@app.get("/get-all-themes")
+def send_all_themes():
+    try:
+        all_themes = get_all_themes()
+        return {"message": "All themes Fetched", "themes": all_themes}
     except Exception as e:
         return {"error": e}
