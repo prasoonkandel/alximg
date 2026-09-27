@@ -10,7 +10,7 @@ dotenv.load_dotenv()
 API_URL = os.getenv("OPENROUTER_API_URL")
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-MODEL = "gemini-3.1-flash-image"
+MODEL = "google/gemini-3.1-flash-image"
 
 
 def generate_image(prompt, input_image_url):
