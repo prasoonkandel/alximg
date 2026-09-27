@@ -7,7 +7,6 @@ from starlette.types import Message
 
 from services.imgen import generate_image
 from services.prompt import generate_prompt
-from test.test import image_url
 
 app = FastAPI()
 
