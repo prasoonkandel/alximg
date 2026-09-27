@@ -41,14 +41,6 @@ def generate_image(prompt, input_image_url):
     if "images" not in message or not message["images"]:
         raise ValueError(f"No image returned by the model.")
 
-    image_data = message["images"][0]["image_url"]["url"]
+    output_image_url = message["images"][0]["image_url"]["url"]
 
-    if "," in image_data:
-        base64_data = image_data.split(",", 1)[1]
-    else:
-        base64_data = image_data
-        image_bytes = base64.b64decode(base64_data)
-        return io.BytesIO(image_bytes)
-
-    image_bytes = base64.b64decode(base64_data)
-    return io.BytesIO(image_bytes)
+    return output_image_url
