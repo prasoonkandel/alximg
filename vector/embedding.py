@@ -9,7 +9,7 @@ from vector.operations import normalise_vector
 load_dotenv()
 
 API_KEY = os.getenv("OPENROUTER_API_KEY")
-API_URL = os.getenv("OPENROUTER_API_URL")
+API_URL = os.getenv("OPENROUTER_EMBEDDING_API_URL")
 
 embedding_model = "voyage-4-lite"
 
