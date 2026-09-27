@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pydantic.types import Json
 from pydantic_core.core_schema import ErrorType
+from starlette.types import Message
 
 from services.imgen import generate_image
 from services.prompt import generate_prompt
@@ -27,3 +28,13 @@ class Image(BaseModel):
 @app.get("/")
 def root():
     return {"message": "Welcome to Alximg"}, 200
+
+
+@app.post("/generate-image")
+def send_image(image_req: Image):
+    try:
+        prompt = generate_prompt(image_req.theme_id)
+        output_image_url = generate_image(prompt, image_req.input_image_url)
+        return {"message": "Image Generated Succesfully", "image_url": output_image_url}
+    except Exception as e:
+        return {"error": e}
