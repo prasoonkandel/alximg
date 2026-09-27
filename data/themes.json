@@ -23,6 +23,14 @@
       "prompt": {
         "requirements": "* **Art Medium & Texture:** High-quality stylized 3D rendering, smooth surfaces, soft materials, polished skin shading, detailed fabrics, and clean animated-film textures.\n* **Atmosphere:** Warm, playful, emotional, adventurous, wholesome, and cinematic.\n* **Environment:** Imitiate the environment of user in the theme.\n* **Composition & Details:** Expressive faces, large readable eyes, appealing rounded proportions, clear silhouettes, natural poses, strong character emotion, and polished animated-feature framing.\n* **Lighting & Color:** Soft global illumination, warm rim lighting, vibrant but balanced colors, gentle shadows, cinematic depth, and bright highlights with a polished 3D movie look."
       }
+    },
+    {
+      "id": 3,
+      "name": "Professional Studio Headshot",
+      "description": "Clean, realistic professional potrait with soft studio lighting, natural skin detail, neutral backgrounds, and a confident polished appearance.",
+      "prompt": {
+        "requirements": "* Art Medium & Texture: Photorealistic professional photography, realistic skin pores and facial texture, detailed natural hair, clean fabric textures, subtle professional retouching, and high-resolution camera detail without artificial plastic-looking skin.\n* Atmosphere: Confident, approachable, trustworthy, polished, calm, and professional while preserving the subject's natural personality.\n* Environment: Minimal studio backdrop in neutral gray, off-white, beige, or dark neutral tones, or a softly blurred professional office environment with no distracting objects.\n* Composition & Details: Head-and-shoulders or upper-torso portrait, eye-level camera, direct or slightly angled pose, natural relaxed expression, sharp eyes, realistic facial proportions, approximately 50–85mm portrait-lens appearance, shallow depth of field, clean business or business-casual clothing, and no text or watermarks.\n* Lighting & Color: Large soft key light with gentle fill, subtle catchlights in the eyes, optional soft rim light, balanced natural skin tones, controlled highlights, soft shadows, neutral professional color grading, and moderate contrast."
+      }
     }
   ]
 }
