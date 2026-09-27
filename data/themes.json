@@ -39,6 +39,14 @@
       "prompt": {
         "requirements": "* Art Medium & Texture: Clean black ink illustration, crisp line art, varied line weight, screentone and halftone dot shading, light hatching, printed comic texture, and sharp monochrome detail.\n* Atmosphere: Energetic, emotional, cinematic, dramatic, and highly expressive, ranging from intense action to quiet character moments.\n* Environment: Japanese comic-inspired settings such as city streets, school halls, cafes, bedrooms, fantasy worlds, rooftops, or dramatic minimal backdrops with selective environmental detail.\n* Composition & Details: Manga-style framing with close-ups, dynamic angles, motion lines, expressive eyes, stylized hair, readable silhouettes, panel-like composition, strong storytelling poses, and no color, text bubbles, or watermarks unless intentionally requested.\n* Lighting & Color: Strictly black-and-white or grayscale, strong contrast, bold blacks, clean whites, screentone midtones, dramatic shadow placement, and graphic lighting that enhances mood and clarity."
       }
+    },
+    {
+      "id": 5,
+      "name": "Colorful Managa",
+      "description": "Vibrant manga artwork with clean ink linework, expressive characters, cel shading, colourful backgrounds, and dynamic comic-style energy.",
+      "prompt": {
+        "requirements": "* Art Medium & Texture: Clean manga/anime-style line art, polished digital illustration, cel shading, smooth color fills, subtle texture accents, and crisp high-detail rendering.\n* Atmosphere: Lively, expressive, cinematic, emotional, and energetic, with a balance of comic storytelling and modern digital polish.\n* Environment: Colorful urban streets, classrooms, cafes, fantasy worlds, rooftops, bedrooms, or scenic outdoor settings with stylized manga-inspired detail.\n* Composition & Details: Expressive eyes, stylized hair, dynamic poses, strong silhouettes, manga-style framing, dramatic angles, action or emotion-focused composition, and clear character readability.\n* Lighting & Color: Bright, saturated colors, clean cel-shaded highlights, soft gradients when needed, vivid contrast, colorful ambient lighting, and a polished full-color manga look."
+      }
     }
   ]
 }
