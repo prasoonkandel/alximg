@@ -1,7 +1,6 @@
 fastapi
 pydantic
 fastapi[standard]
-faiss-cpu
 numpy
 base64
 dotenv
