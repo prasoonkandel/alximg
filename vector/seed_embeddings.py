@@ -1,8 +1,6 @@
 import json
 from pathlib import Path
 
-from typing_extensions import dataclass_transform
-
 from vector.embedding import get_embedding
 
 data_file = "data/themes.json"
