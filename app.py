@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pydantic.types import Json
 from pydantic_core.core_schema import ErrorType
-from starlette.types import Message
 
 from services.imgen import generate_image
 from services.json import get_all_themes
