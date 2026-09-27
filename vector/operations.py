@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 
 
 def normalise_vector(vector):
