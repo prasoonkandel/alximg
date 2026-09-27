@@ -31,6 +31,14 @@
       "prompt": {
         "requirements": "* Art Medium & Texture: Photorealistic professional photography, realistic skin pores and facial texture, detailed natural hair, clean fabric textures, subtle professional retouching, and high-resolution camera detail without artificial plastic-looking skin.\n* Atmosphere: Confident, approachable, trustworthy, polished, calm, and professional while preserving the subject's natural personality.\n* Environment: Minimal studio backdrop in neutral gray, off-white, beige, or dark neutral tones, or a softly blurred professional office environment with no distracting objects.\n* Composition & Details: Head-and-shoulders or upper-torso portrait, eye-level camera, direct or slightly angled pose, natural relaxed expression, sharp eyes, realistic facial proportions, approximately 50–85mm portrait-lens appearance, shallow depth of field, clean business or business-casual clothing, and no text or watermarks.\n* Lighting & Color: Large soft key light with gentle fill, subtle catchlights in the eyes, optional soft rim light, balanced natural skin tones, controlled highlights, soft shadows, neutral professional color grading, and moderate contrast."
       }
+    },
+    {
+      "id": 4,
+      "name": "Black & White Manga",
+      "description": "Classic Japanese comic style with crisp ink linework, screentone shading, expressive faces, dynamic framing and dramatic monochrome contrast",
+      "prompt": {
+        "requirements": "* Art Medium & Texture: Clean black ink illustration, crisp line art, varied line weight, screentone and halftone dot shading, light hatching, printed comic texture, and sharp monochrome detail.\n* Atmosphere: Energetic, emotional, cinematic, dramatic, and highly expressive, ranging from intense action to quiet character moments.\n* Environment: Japanese comic-inspired settings such as city streets, school halls, cafes, bedrooms, fantasy worlds, rooftops, or dramatic minimal backdrops with selective environmental detail.\n* Composition & Details: Manga-style framing with close-ups, dynamic angles, motion lines, expressive eyes, stylized hair, readable silhouettes, panel-like composition, strong storytelling poses, and no color, text bubbles, or watermarks unless intentionally requested.\n* Lighting & Color: Strictly black-and-white or grayscale, strong contrast, bold blacks, clean whites, screentone midtones, dramatic shadow placement, and graphic lighting that enhances mood and clarity."
+      }
     }
   ]
 }
