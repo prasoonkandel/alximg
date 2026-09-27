@@ -6,6 +6,7 @@ from pydantic_core.core_schema import ErrorType
 
 from services.imgen import generate_image
 from services.prompt import generate_prompt
+from test.test import image_url
 
 app = FastAPI()
 
@@ -16,6 +17,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+class Image(BaseModel):
+    theme_id: int
+    input_image_url: str
 
 
 @app.get("/")
