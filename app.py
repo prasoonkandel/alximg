@@ -6,3 +6,13 @@ from pydantic_core.core_schema import ErrorType
 
 from services.imgen import generate_image
 from services.prompt import generate_prompt
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
