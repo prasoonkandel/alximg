@@ -1,9 +1,5 @@
-fastapi
-pydantic
 fastapi[standard]
+pydantic
 numpy
-base64
-dotenv
+python-dotenv
 requests
-json
-io
