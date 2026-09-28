@@ -7,6 +7,7 @@ def generate_prompt(theme_id):
     theme = theme_data["themes"][theme_id]
 
     return f"""
+
 ## Role
 You are an AI image generation and image transformation specialist.
 
