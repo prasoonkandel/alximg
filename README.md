@@ -14,6 +14,12 @@ Alxi image generator is a web page that lets you to generate trending AI style i
     </a>
 </p>
 
+<p>
+    <a href="https://github.com/prasoonkandel/alximg/fork" target="_blank">
+       <img src="https://img.shields.io/badge/Fork_Repo-B45309?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+</p>
+
 # Features:
 - Generate trending style images without typing
 - Make AI images in under <30 seconds
