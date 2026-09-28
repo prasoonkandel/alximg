@@ -5,7 +5,7 @@ from pydantic.types import Json
 from pydantic_core.core_schema import ErrorType
 
 from services.imgen import generate_image
-from services.json import get_all_themes
+from services.json import get_all_themes, get_theme_by_id
 from services.prompt import generate_prompt
 
 app = FastAPI()
@@ -44,5 +44,18 @@ def send_all_themes():
     try:
         all_themes = get_all_themes()
         return {"message": "All themes Fetched", "themes": all_themes}
+    except Exception as e:
+        return {"error": e}
+
+
+@app.get("/get-theme/{id}")
+def send_theme_by_id(id):
+    try:
+        theme = get_theme_by_id(id)
+        if not theme:
+            raise HTTPException(status_code=404, detail="Theme not found")
+
+        return {"theme": theme}
+
     except Exception as e:
         return {"error": e}
