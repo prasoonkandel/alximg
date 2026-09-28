@@ -7,3 +7,9 @@ Alxi image generator is a web page that lets you to generate trending AI style i
 - Make AI images in under <30 seconds
 - 6+ trending themes available
 - Unlimited Generation For Free of Cost
+
+## Tech Stack:
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,vercel,git,github" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="48" />
+</p>
