@@ -59,3 +59,8 @@ def send_theme_by_id(id):
 
     except Exception as e:
         return {"error": e}
+
+
+@app.get("/api/health")
+def health():
+    return {"message": "I feel good :)"}
