@@ -32,8 +32,6 @@ Alxi image generator is a web page that lets you to generate trending AI style i
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="48" />
 </p>
 
-## Project Architecture
-
 ## Related Repository
 | Repository                                                               | Description                                          |
 | ------------------------------------------------------------------------ | ---------------------------------------------------- |
